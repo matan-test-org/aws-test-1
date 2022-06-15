@@ -9,10 +9,6 @@ import { UserList } from "./user/UserList";
 import { UserCreate } from "./user/UserCreate";
 import { UserEdit } from "./user/UserEdit";
 import { UserShow } from "./user/UserShow";
-import { ShimiList } from "./shimi/ShimiList";
-import { ShimiCreate } from "./shimi/ShimiCreate";
-import { ShimiEdit } from "./shimi/ShimiEdit";
-import { ShimiShow } from "./shimi/ShimiShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -32,7 +28,7 @@ const App = (): React.ReactElement => {
   return (
     <div className="App">
       <Admin
-        title={"My app"}
+        title={"My app-3"}
         dataProvider={dataProvider}
         authProvider={jwtAuthProvider}
         theme={theme}
@@ -45,13 +41,6 @@ const App = (): React.ReactElement => {
           edit={UserEdit}
           create={UserCreate}
           show={UserShow}
-        />
-        <Resource
-          name="Shimi"
-          list={ShimiList}
-          edit={ShimiEdit}
-          create={ShimiCreate}
-          show={ShimiShow}
         />
       </Admin>
     </div>

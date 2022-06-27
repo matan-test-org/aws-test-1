@@ -9,10 +9,10 @@ import { UserList } from "./user/UserList";
 import { UserCreate } from "./user/UserCreate";
 import { UserEdit } from "./user/UserEdit";
 import { UserShow } from "./user/UserShow";
-import { ShimiList } from "./shimi/ShimiList";
-import { ShimiCreate } from "./shimi/ShimiCreate";
-import { ShimiEdit } from "./shimi/ShimiEdit";
-import { ShimiShow } from "./shimi/ShimiShow";
+import { RrList } from "./rr/RrList";
+import { RrCreate } from "./rr/RrCreate";
+import { RrEdit } from "./rr/RrEdit";
+import { RrShow } from "./rr/RrShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -47,11 +47,11 @@ const App = (): React.ReactElement => {
           show={UserShow}
         />
         <Resource
-          name="Shimi"
-          list={ShimiList}
-          edit={ShimiEdit}
-          create={ShimiCreate}
-          show={ShimiShow}
+          name="Rr"
+          list={RrList}
+          edit={RrEdit}
+          create={RrCreate}
+          show={RrShow}
         />
       </Admin>
     </div>

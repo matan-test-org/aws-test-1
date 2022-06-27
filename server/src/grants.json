@@ -31,31 +31,31 @@
   },
   {
     "role": "user",
-    "resource": "Shimi",
+    "resource": "Rr",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Shimi",
+    "resource": "Rr",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Shimi",
+    "resource": "Rr",
     "action": "read:own",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Shimi",
+    "resource": "Rr",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Shimi",
+    "resource": "Rr",
     "action": "read:any",
     "attributes": "*"
   }

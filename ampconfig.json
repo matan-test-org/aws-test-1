@@ -1,18 +1,18 @@
 {
-  "dataServiceGeneratorVersion": "0.12.9",
+  "dataServiceGeneratorVersion": "0.13.1",
   "appInfo": {
     "name": "My app",
     "description": "",
-    "version": "ud6bdqm2",
-    "id": "cl37nq52w014801m18imb45zw",
-    "url": "https://server.staging-os.amplication-dev.com/cl37nq52w014801m18imb45zw",
+    "version": "oz10srhv",
+    "id": "cl4vgtw8j016101ef1f2n8gq1",
+    "url": "https://server-shimi.amplication-dev.com/cl4vgtw8j016101ef1f2n8gq1",
     "settings": {
       "dbHost": "localhost",
       "dbName": "",
       "dbPassword": "admin",
       "dbPort": 5432,
       "dbUser": "admin",
-      "appId": "cl37nq52w014801m18imb45zw",
+      "appId": "cl4vgtw8j016101ef1f2n8gq1",
       "authProvider": "Jwt"
     }
   }

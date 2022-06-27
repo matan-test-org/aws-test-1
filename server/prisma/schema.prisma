@@ -18,7 +18,7 @@ model User {
   roles     String[]
 }
 
-model Shimi {
+model Rr {
   id        String   @id @default(cuid())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
